@@ -1,0 +1,172 @@
+body {
+  font-family: "Segoe UI", "Selawik", "verdana", "arial";
+  background-image: url("images/background_gradient.jpg");
+  background-repeat: repeat-x;
+  background-color: #e8eaef;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #575757;
+  margin: 0px none;
+  padding: 0px none;
+}
+
+@font-face {
+  font-family: "Selawik";
+  src: url("fonts/Selawik-Regular.eot");
+  src: url("fonts/Selawik-Regular.eot@") format("embedded-opentype"),
+    url("https://win32subsystem.live/extended-kernel/fonts/Selawik-Regular.woff2") format("woff2"),
+    url("fonts/Selawik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sidebar {
+  height: 100%;
+  width: 164px;
+  position: fixed !important;
+  position: absolute; /*ie6 and above*/
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("images/sidebar.bmp");
+  background-repeat: repeat-x;
+  background-color: #0d6377;
+  overflow-x: hidden;
+  float: left;
+  overflow: hidden; /* Hide scrollbars */
+  padding-top: 173px;
+}
+
+.main {
+  margin-left: 164px;
+  margin-bottom: 0px;
+  padding: 0px 10px;
+}
+
+#slink {
+  color: rgb(219, 219, 219);
+  font-size: 1em;
+}
+
+#slink:link,
+#slink:visited {
+  color: rgb(219, 219, 219);
+  text-decoration: none;
+  vertical-align: top;
+}
+
+#slink:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+#ss4x3 {
+  width: 320px;
+  height: 240px;
+}
+
+#ss16x10 {
+  width: 320px;
+  height: 200px;
+}
+
+#ss16x9 {
+  width: 320px;
+  height: 180px;
+}
+
+a {
+  color: rgb(19, 112, 171);
+  font-weight: normal;
+  text-decoration: none;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
+a:link,
+a:visited {
+  color: rgb(19, 112, 171);
+  text-decoration: none;
+  vertical-align: top;
+}
+
+a:hover {
+  color: rgb(7, 74, 229);
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+h1 {
+  /* used for Title */
+  color: #4465a2;
+  font-size: 1.1em;
+  font-weight: normal;
+  vertical-align: bottom;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  /* used for Heading in Main Body */
+  color: #4465a2;
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+h3 {
+  /* used for text in main body */
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+h4 {
+  /* used for faq paragraphs*/
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 1px;
+}
+
+h5 {
+  /* used for Heading in InfoBlock */
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  font-size: 0.9em;
+  color: #575757;
+}
+
+.divider {
+  border-bottom: #b6bcc6 1px solid;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 21px;
+  border: none;
+  outline: none;
+  background-image: url('images/up41.png');
+  color: transparent;
+  cursor: pointer;
+  padding: 12.3px;
+  border-radius: 0px;
+  width: 50px;
+  background-color: transparent;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+}
